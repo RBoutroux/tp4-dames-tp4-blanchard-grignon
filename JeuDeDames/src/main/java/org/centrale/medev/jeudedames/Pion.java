@@ -46,4 +46,16 @@ public class Pion {
         this.y = y;
     }
     
+    /**
+     * Constructeur avec paramètres
+     * @param blanc true si le pion est blanc, false sinon
+     * @param x     position en x 
+     * @param y     position en y
+     */
+    public Pion (boolean blanc, int x, int y){
+      this.reine=false; 
+      this.blanc=blanc; 
+      this.x=x; 
+      this.y=y; 
+    }   
 }
