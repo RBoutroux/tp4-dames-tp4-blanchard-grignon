@@ -21,4 +21,15 @@ public class Partie {
         this.listePions = listePions;
     }
     
+    
+    
+    public Pion verifierCase(int x, int y){
+        
+        for (int i = 0; i < this.getListePions().size(); i++) {
+            if ((this.getListePions().get(i).getX()==x) && (this.getListePions().get(i).getY()==y)){
+                return this.getListePions().get(i); 
+            }
+         }
+        return null; 
+    }
 }
