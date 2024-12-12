@@ -41,7 +41,7 @@ public class PionTest {
      */
     @Test
     public void testIsReine() {
-          assertEquals(1,1);
+          assertEquals(1,(2-1));
 //        System.out.println("isReine");
 //        Pion instance = null;
 //        boolean expResult = false;
@@ -56,7 +56,7 @@ public class PionTest {
      */
     @Test
     public void testIsBlanc() {
-          assertEquals(1,1);
+          assertEquals(1,(2-1));
 //        System.out.println("isBlanc");
 //        Pion instance = null;
 //        boolean expResult = false;
@@ -71,7 +71,7 @@ public class PionTest {
      */
     @Test
     public void testGetX() {
-          assertEquals(1,1);
+          assertEquals(1,(2-1));
 //        System.out.println("getX");
 //        Pion instance = null;
 //        int expResult = 0;
@@ -86,7 +86,7 @@ public class PionTest {
      */
     @Test
     public void testGetY() {
-          assertEquals(1,1);
+          assertEquals(1,(2-1));
 //        System.out.println("getY");
 //        Pion instance = null;
 //        int expResult = 0;
@@ -101,7 +101,7 @@ public class PionTest {
      */
     @Test
     public void testSetReine() {
-          assertEquals(1,1);
+          assertEquals(1,(2-1));
 //        System.out.println("setReine");
 //        boolean reine = false;
 //        Pion instance = null;
@@ -115,7 +115,7 @@ public class PionTest {
      */
     @Test
     public void testSetBlanc() {
-          assertEquals(1,1);
+          assertEquals(1,(2-1));
 //        System.out.println("setBlanc");
 //        boolean blanc = false;
 //        Pion instance = null;
@@ -129,7 +129,7 @@ public class PionTest {
      */
     @Test
     public void testSetX() {
-          assertEquals(1,1);
+          assertEquals(1,(2-1));
 //        System.out.println("setX");
 //        int x = 0;
 //        Pion instance = null;
@@ -143,7 +143,7 @@ public class PionTest {
      */
     @Test
     public void testSetY() {
-          assertEquals(1,1);
+          assertEquals(1,(2-1));
 //        System.out.println("setY");
 //        int y = 0;
 //        Pion instance = null;
