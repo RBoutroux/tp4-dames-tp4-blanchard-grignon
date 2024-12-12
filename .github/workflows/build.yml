@@ -34,5 +34,5 @@ jobs:
         working-directory: JeuDeDames
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=RBoutroux_tp4-dames-tp4-blanchard-grignon \ -Dsonar.java.binaries=target \ -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN || 'default_token' }}
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=RBoutroux_tp4-dames-tp4-blanchard-grignon #  \ -Dsonar.java.binaries=target \ -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
