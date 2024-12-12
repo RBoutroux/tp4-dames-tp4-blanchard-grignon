@@ -23,11 +23,11 @@
                     <execution>
                         <goals>
                             <goal> prepare - agent </goal>
-                            </goals >
-                            </ execution>
-                            <execution>
-                            <id> report </id>
-                            <phase> verify </phase>
+                        </goals >
+                    </execution>
+                    <execution>
+                        <id> report </id>
+                        <phase> verify </phase>
                         <goals>
                             <goal> report </goal>
                         </goals>
